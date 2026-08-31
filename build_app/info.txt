@@ -1,0 +1,34 @@
+Adicionado em build_app/:
+
+┌──────────────┬───────────────────────────────────────────────────┐
+│   Arquivo    │                     O que faz                     │
+├──────────────┼───────────────────────────────────────────────────┤
+│              │ Instala as dependências no Debian/Ubuntu:         │
+│ setup.sh     │ default-jdk-headless (java/keytool), apksigner,   │
+│              │ zipalign, zip, unzip, jq. Idempotente, pede sudo  │
+│              │ sozinho, habilita o repo universe se preciso.     │
+├──────────────┼───────────────────────────────────────────────────┤
+│ build-apk.sh │ O gerador. Não usa apktool nem SDK completo — só  │
+│              │ troca os 2 assets, zipalign e apksigner (v2+v3).  │
+├──────────────┼───────────────────────────────────────────────────┤
+│ README.md    │ Documentação + como a rota do botão "GERAR APK"   │
+│              │ deve chamar o script.                             │
+└──────────────┴───────────────────────────────────────────────────┘
+
+Como o build-apk.sh funciona
+
+1. Escreve assets/user_id.txt = --user-id
+2. Pega o assets/dtunnelmod.json de dentro do APK base e troca só o campo .url = --url (mantém credits/channel/group)
+3. Injeta os dois no APK base com zip
+4. zipalign -p 4
+5. apksigner sign com keystore própria (criada no 1º build em build_app/keystore/dtmod.jks)
+6. apksigner verify
+
+cd build_app
+./setup.sh
+./build-apk.sh --user-id seu_token_id --url https://painel.seudominio.com
+# -> dist/DTMod-maudavpn.apk
+
+Para a rota do painel: --print-json joga {"apk","sha256","size"} no stdout (logs vão pro stderr), builds simultâneos são seguros (tempdir por execução), ~5–15s cada.
+
+Testado de ponta a ponta com o DTMod_4.5.7.apk: assets injetados corretos e apksigner verify → Verifies (v2+v3). keystore/ e dist/ foram adicionados ao .gitignore.

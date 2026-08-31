@@ -11,3 +11,9 @@ nginx/privkey.pem
 Dockerfile
 apktool
 apktool.txt
+
+# build_app: artefatos gerados
+build_app/dist/
+build_app/keystore/
+*.jks
+*.keystore
