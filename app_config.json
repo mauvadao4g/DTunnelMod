@@ -1,0 +1,290 @@
+[
+    {
+        "label": "Logo do app",
+        "name": "APP_LOGO",
+        "value": null,
+        "type": "IMAGE"
+    },
+    {
+        "label": "Imagem de fundo",
+        "name": "APP_BACKGROUND_IMAGE",
+        "value": "https://i.ibb.co/ns3Tx85h/da7dad283dd8d88ec46f2e5d2409479f.jpg",
+        "type": "IMAGE"
+    },
+    {
+        "label": "Tipo do fundo do app",
+        "name": "APP_BACKGROUND_TYPE",
+        "value": {
+            "options": [
+                {
+                    "label": "Imagem",
+                    "value": "IMAGE"
+                },
+                {
+                    "label": "Cor",
+                    "value": "COLOR"
+                }
+            ],
+            "selected": "IMAGE"
+        },
+        "type": "SELECT"
+    },
+    {
+        "label": "Cor de fundo",
+        "name": "APP_BACKGROUND_COLOR",
+        "value": "#080e16c7",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor do card inicial",
+        "name": "APP_CARD_COLOR",
+        "value": "#1d242e73",
+        "type": "COLOR"
+    },
+    {
+        "label": "Raio do card inicial",
+        "name": "APP_CARD_RADIUS",
+        "value": 20,
+        "type": "INTEGER"
+    },
+    {
+        "label": "Cor do card de status",
+        "name": "APP_CARD_STATUS_COLOR",
+        "value": "#1d242e73",
+        "type": "COLOR"
+    },
+    {
+        "label": "Raio do card de status",
+        "name": "APP_CARD_STATUS_RADIUS",
+        "value": 25,
+        "type": "INTEGER"
+    },
+    {
+        "label": "Cor do card de configurações",
+        "name": "APP_CARD_CONFIG_COLOR",
+        "value": "#080e16aa",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor do fundo dos dialogs",
+        "name": "APP_DIALOG_BACKGROUND_COLOR",
+        "value": "#080e16c7",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor do fundo do dialog de log",
+        "name": "APP_DIALOG_LOGGER_COLOR",
+        "value": "#080e16c7",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor das bordas",
+        "name": "APP_BORDER_COLOR",
+        "value": "#5c69ff96",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor dos inputs",
+        "name": "APP_INPUT_COLOR",
+        "value": "#cf15b373",
+        "type": "COLOR"
+    },
+    {
+        "label": "Raio dos inputs",
+        "name": "APP_INPUT_RADIUS",
+        "value": 25,
+        "type": "INTEGER"
+    },
+    {
+        "label": "Cor dos textos",
+        "name": "APP_TEXT_COLOR",
+        "value": "#ff63f7ff",
+        "type": "COLOR"
+    },
+    {
+        "label": "Cor dos botões",
+        "name": "APP_BUTTON_COLOR",
+        "value": "#8256805b",
+        "type": "COLOR"
+    },
+    {
+        "label": "Raio dos botões",
+        "name": "APP_BUTTON_RADIUS",
+        "value": 25,
+        "type": "INTEGER"
+    },
+    {
+        "label": "Cor dos icones",
+        "name": "APP_ICON_COLOR",
+        "value": "#FFFFFFFF",
+        "type": "COLOR"
+    },
+    {
+        "label": "Exibir modo de conexão",
+        "name": "APP_SHOW_CONNECTION_MODE",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Atualização automatica de configurações",
+        "name": "APP_CONFIG_AUTO_UPDATE",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar limiter de conexão",
+        "name": "APP_CONNECTION_LIMITER",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar botão de atualizações",
+        "name": "APP_BTN_UPDATE_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar botão de registros",
+        "name": "APP_BTN_LOGGER_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar botão de pagina webview",
+        "name": "APP_BTN_PAGE_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar botão de menu",
+        "name": "APP_BTN_MENU_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Usar atualização de visto por ultimo",
+        "name": "APP_UPDATE_LAST_SEEN_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Pedir permissão de localização do usuário",
+        "name": "APP_CONFIG_LOCATION_PERMISSION",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar dialog de erros",
+        "name": "APP_DIALOG_ERROR_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar dialog de checkuser",
+        "name": "APP_CHECKUSER_DIALOG_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar dialog de notificações",
+        "name": "APP_DIALOG_NOTIFICATION_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar toast de sucesso",
+        "name": "APP_SUCCESS_TOAST_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar toast de erro",
+        "name": "APP_ERROR_TOAST_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar IP local no layout nativo",
+        "name": "APP_LOCAL_IP_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Filtrar configurações pelo nome da rede",
+        "name": "APP_CONFIG_FILTER_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar serviço de ping",
+        "name": "APP_PING_SERVICE_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar verificação de conectividade",
+        "name": "APP_CONNECTIVITY_CHECK_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Mostrar quantidade de CDNs",
+        "name": "APP_CDN_COUNT_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Ativar modo avião automático",
+        "name": "APP_AIRPLANE_MODE",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Timeout do modo avião automático (em segundos)",
+        "name": "APP_AIRPLANE_MODE_TIMEOUT",
+        "value": 1,
+        "type": "INTEGER"
+    },
+    {
+        "label": "Ativar alertas sonoros",
+        "name": "APP_ALERT_SOUND_ENABLED",
+        "value": true,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "Versão do aplicativo",
+        "name": "APP_CURRENT_VERSION",
+        "value": "4.5.7",
+        "type": "STRING"
+    },
+    {
+        "label": "Link para download do aplicativo",
+        "name": "APP_DOWNLOAD_URL",
+        "value": null,
+        "type": "STRING"
+    },
+    {
+        "label": "Usar layout webview",
+        "name": "APP_LAYOUT_WEBVIEW_ENABLED",
+        "value": false,
+        "type": "BOOLEAN"
+    },
+    {
+        "label": "LAYOUT WEBVIEW (POR SUA CONTA E RISCO)",
+        "name": "APP_LAYOUT_WEBVIEW",
+        "value": null,
+        "type": "HTML"
+    },
+    {
+        "label": "ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
+        "name": "APP_SUPPORT_BUTTON",
+        "value": null,
+        "type": "HTML"
+    },
+    {
+        "label": "PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
+        "name": "APP_WEB_VIEW",
+        "value": null,
+        "type": "HTML"
+    }
+]
