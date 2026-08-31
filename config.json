@@ -1,0 +1,114 @@
+[
+    {
+        "category": {
+            "name": "RECOMENDADOS",
+            "color": "#00000080",
+            "sorter": 1
+        },
+        "name": "Tim S Valido",
+        "description": "",
+        "mode": "SSL_PROXY",
+        "tls_version": "TLSv1.3",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": "ssh_otp",
+            "password": "2IYRO2HRWHRWPDCUC5JWKRSMDLNUGFFT:60:6"
+        },
+        "config_payload": {
+            "sni": "ssh.ethiodragon.sbs",
+            "payload": "GET / HTTP/1.1[lf]Host: ssh.ethiodragon.sbs[lf]Upgrade: websocket[lf][lf]"
+        },
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://i.ibb.co/yF6VXCfX/tim1-webp.webp",
+        "proxy": {
+            "host": "162.247.241.4",
+            "port": 443
+        },
+        "server": {
+            "host": "ssh.ethiodragon.sbs",
+            "port": 442
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "category": {
+            "name": "RECOMENDADOS",
+            "color": "#00000080",
+            "sorter": 1
+        },
+        "name": "💙 TIM FRONT VELOZ 4⚡️",
+        "description": "",
+        "mode": "SSL_PROXY",
+        "tls_version": "TLSv1.1",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": "",
+            "password": ""
+        },
+        "config_payload": {
+            "sni": "tim-pagamentocontas-web.m4u.com.br#tim-pagamentocontas-api.m4u.com.br#web-timnegocia.stg.m4u.com.br",
+            "payload": "GET wss://[host] HTTP/1.1[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Host: icatu-cobranca.stg.m4u.com.br[lf]Backend: app9816[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]"
+        },
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "",
+        "proxy": {
+            "host": "52.1.137.23",
+            "port": 443
+        },
+        "server": {
+            "host": "ag.maudossh.shop",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "category": {
+            "name": "RECOMENDADOS",
+            "color": "#00000080",
+            "sorter": 1
+        },
+        "name": "TIM V2RAY PRO 03",
+        "description": "",
+        "mode": "V2RAY",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "v2ray_uuid": "e30b8dc3-ed92-476f-ab42-ef95edc1d7c8"
+        },
+        "config_v2ray": "vless://@179.191.168.17:443?path=%2F&security=tls&encryption=none&host=hrdwffha4vc.map.azionedge.net&fp=chrome&type=xhttp&sni=www.tim.com.br",
+        "icon": "https://i.ibb.co/yF6VXCfX/tim1-webp.webp",
+        "url_check_user": ""
+    },
+    {
+        "category": {
+            "name": "RECOMENDADOS",
+            "color": "#00000080",
+            "sorter": 1
+        },
+        "name": "TIM V2RAY PRO 05",
+        "description": "",
+        "mode": "V2RAY",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "v2ray_uuid": "0a8f6fb4-fc0e-406a-9fdc-6f5b0295815d"
+        },
+        "config_v2ray": "vless://0a8f6fb4-fc0e-406a-9fdc-6f5b0295815d@179.191.168.17:443?path=%2F&security=tls&encryption=none&insecure=1&host=oc3xhkzwdcw.map.azionedge.net&fp=chrome&type=xhttp&allowInsecure=1&sni=app.tim.com.br#DragonCore-Free",
+        "icon": "https://i.ibb.co/yF6VXCfX/tim1-webp.webp",
+        "url_check_user": ""
+    }
+]
